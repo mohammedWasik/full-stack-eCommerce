@@ -1,0 +1,79 @@
+.banner {
+  /* background-image: url("../../images/mi\ 5.jpeg"); */
+  background-color: rgb(41, 85, 85);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.banner > h1 {
+  margin: 5vmax;
+  font-family: "Roboto";
+}
+
+.banner > p {
+  font-family: "Lucida Sans";
+}
+
+.banner > a > button {
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.5s;
+  width: 9vmax;
+  margin-inline: auto;
+  font-size: 4em;
+}
+
+/* .banner::after {
+  content: "";
+  width: 100vw;
+  height: 100vmin;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  /* clip-path: polygon(100% 70%, 0% 100%, 100% 100%); */
+
+*/ .homeHeading {
+  text-align: center;
+  font-family: Roboto;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+  width: 30vmax;
+  padding: 1vmax;
+  margin: 5vmax auto;
+  color: rgb(0, 0, 0, 0.7);
+}
+.container {
+  display: flex;
+  margin: 2vmax auto;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.productCard {
+  text-align: center;
+  width: 15vmax;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+}
+.productCard > img {
+  width: 15vmax;
+  margin-bottom: 0.5em;
+}
+.productCard:hover {
+  padding: 0.5em;
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+  transform: translateY(-1vmax);
+}
